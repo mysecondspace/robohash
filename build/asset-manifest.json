@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/robohash/build/static/css/main.de98fe55.css",
+    "main.js": "/robohash/build/static/js/main.6ce6da30.js",
+    "index.html": "/robohash/build/index.html",
+    "static/media/close.svg": "/robohash/build/static/media/close.6114818ce258eb184484.svg",
+    "main.de98fe55.css.map": "/robohash/build/static/css/main.de98fe55.css.map",
+    "main.6ce6da30.js.map": "/robohash/build/static/js/main.6ce6da30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de98fe55.css",
+    "static/js/main.6ce6da30.js"
+  ]
+}
