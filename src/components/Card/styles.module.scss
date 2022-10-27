@@ -10,7 +10,7 @@
   transform: translateZ(0);
   padding: 0 0 2rem;
   cursor: pointer;
-  margin: .75rem;
+  margin: 0.75rem;
   width: 20rem;
 
   &:hover {
@@ -22,13 +22,13 @@
     height: 11.25rem;
     margin: 0 auto 1rem;
   }
-  
+
   p {
     font-size: 1.25rem;
     font-weight: $semi-bold-weight;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
-  
+
   span {
     font-weight: $medium-weight;
   }

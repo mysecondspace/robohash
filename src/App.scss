@@ -2,14 +2,18 @@
 
 body {
   padding: 0;
+  text-align: center;
   margin: 2.5rem 0 5rem;
+  scrollbar-width: none;
   font-weight: $regular-weight;
   font-family: $primary-font-family;
-  background: linear-gradient(to right, darken($primary-color, 15%) 0%, $secondary-color 100%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scrollbar-width: none;
-  text-align: center;
+  background: linear-gradient(
+    to right,
+    darken($primary-color, 15%) 0%,
+    $secondary-color 100%
+  );
 
   &::-webkit-scrollbar {
     display: none;

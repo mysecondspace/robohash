@@ -1,8 +1,14 @@
 import React from 'react'
 
+import { Robot } from '../../App'
+
 import styles from './styles.module.scss'
 
-function Card({ robot: { id, name, email } }) {
+type CardProps = {
+  robot: Robot
+}
+
+function Card({ robot: { id, name, email } }: CardProps) {
   return (
     <div className={styles.card} key={id}>
       <img

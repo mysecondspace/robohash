@@ -1,10 +1,14 @@
-import React from 'react'
+import { Robot } from '../../App'
 
 import Card from '../Card'
 
 import styles from './styles.module.scss'
 
-function List({ robots }) {
+type ListProps = {
+  robots: Robot[]
+}
+
+function List({ robots }: ListProps) {
   return (
     <div className={styles.list}>
       {robots.map((robot) => (
